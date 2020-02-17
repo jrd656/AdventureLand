@@ -8,7 +8,7 @@ Well, you're not alone. In this guide I'm going to try guide you through the ste
 
 So at some point, you'll have looked through the [guide on Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1640326394) and read the following:
 
-![Steam Guide](/images/SteamGuideGoals.png)
+* ![Steam Guide](/images/SteamGuideGoals.png)
 
 'improve potion consumption' you say? OK...
 
@@ -33,13 +33,13 @@ So let's work out what's going on with that function. First of all, let's lookin
 * msssince - This appear to mean 'miliseconds since' - ie, mssince(last_potion) means 'how many miliseconds have elapsed since a potion was last used. **I can't find where this is defined though?**
 * last_potion - a few lines down, we can see a variable: "var last_potion=new Date(0);", which simply records the point in time that the last potion was used.
 * character.ping - at the top of the runner_functions.js file, we can see "var character={...". The comments provided tell us that 'character' is an object. The easiest way to view this object is in the [adventure.land/docs](http://adventure.land/docs/code/character/reference). Here, we can see that character.ping = 64.5, // average round-trip between character and server in milliseconds
-* 
+* parent.next_skill.use_hp - **Can't find this? Need more info**
 
 
 
 
 
-## collapsible markdown?
+## Keeping this here to remind me how to do collapsible markdown
 <details><summary>CLICK ME</summary>
 <p>
 #### yes, even hidden code blocks!
