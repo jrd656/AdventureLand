@@ -1,6 +1,6 @@
 # How to improve potion consumption:
 
-So you've been over to the [discord channel](https://discordapp.com/channels/238332476743745536/238332476743745536) for AdventureLand, and you've read through all of the guides on the #Welcome page, and you're still stuck as to how you can possibly start improving on the default code you've been given?
+So you've been over to the [discord channel](https://discordapp.com/channels/238332476743745536/238332476743745536) for AdventureLand, and you've read through all of the guides on the #Welcome page. Lots of information there, but you still might be stuck as to how you can start improving on the default code you've been given?
 
 Well, you're not alone. In this guide I'm going to try guide you through the steps you can take to delve into the AdventureLand code and then start to build up a few of our own functions.
 
@@ -25,7 +25,7 @@ I downloaded the file and opened it in VS Code. Use ctrl+f to find use_hp_or_mp,
 
 ![use_hp_or_mp function](/images/use_hp_or_mp().png)
 
-## Decyphering the use_hp_or_mp() Function:
+## Deciphering the use_hp_or_mp() Function:
 
 So let's work out what's going on with that function. First of all, let's looking at the variables and other terms that appear:
 
@@ -39,7 +39,7 @@ So let's work out what's going on with that function. First of all, let's lookin
 
 
 
-## Keeping this here to remind me how to do collapsible markdown
+(Keeping this here to remind me how to do collapsible markdown)
 <details><summary>CLICK ME</summary>
 <p>
 #### yes, even hidden code blocks!
