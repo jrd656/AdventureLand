@@ -33,7 +33,14 @@ So let's work out what's going on with that function. First of all, let's lookin
 * msssince - This appear to mean 'miliseconds since' - ie, mssince(last_potion) means 'how many miliseconds have elapsed since a potion was last used. **I can't find where this is defined though?**
 * last_potion - a few lines down, we can see a variable: "var last_potion=new Date(0);", which simply records the point in time that the last potion was used.
 * character.ping - at the top of the runner_functions.js file, we can see "var character={...". The comments provided tell us that 'character' is an object. The easiest way to view this object is in the [adventure.land/docs](http://adventure.land/docs/code/character/reference). Here, we can see that character.ping = 64.5, // average round-trip between character and server in milliseconds
-* parent.next_skill.use_hp - **Can't find this? Need more info**
+* parent.next_skill.use_hp - to find out about this item, I went to Developer Tools (I'm using Chrome. You may need to do some digging to find out how to do this in Firefox or Steam), then clicked the Sources tab. From there, press ctrl+shift+f and search "use_hp". A result is returned, which can be right-clicked in order to navigate to the source file - ie, 'functions.js'. Make sure you change the format to 'pretty-print' by clicking the curly-braces button, which looks a bit like this: [{}]. 
+** ctrl+f "use_hp" to see the following:
+[functions.js section for use_hp](/images/functionsdotjs-use_hp.png)
+
+I personally couln't make head-nor-tail of this, so I consulted the clever people over at the Discord channel:
+[egenhnk help](/images/egenhnk.png)
+
+**Need to work out what all this 'parent' stuff means**
 
 
 
