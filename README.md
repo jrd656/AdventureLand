@@ -13,7 +13,7 @@ So at some point, you'll have looked through the [guide on Steam](https://steamc
 'improve potion consumption' you say? OK...
 
 And then you've gone back to the game screen and clicked the CODE button in the top-right of the screen. At the top of the default javascript code, you'll see the following:
-![use_hp_or_mp snippet](/images/use_hp_or_mp-function.png)
+* ![use_hp_or_mp snippet](/images/use_hp_or_mp-function.png)
 
 So - how do we interrogate this "The use_hp_or_mp()" code and discover how to optimise it?
 
@@ -47,12 +47,11 @@ I personally couln't make head-nor-tail of this, so I consulted the clever peopl
 
 
 (Keeping this here to remind me how to do collapsible markdown)
-<details><summary>CLICK ME</summary>
+<details><summary>Ignore me</summary>
 <p>
-#### yes, even hidden code blocks!
+#### h4 text
   
-```python
-print("hello world!")
+```example script
 ```
 </p>
 </details>
